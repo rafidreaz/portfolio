@@ -1,0 +1,21 @@
+/* Reset some default styles */
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #work .card {
+    transition: transform 0.3s ease;
+  }
+  
+  #work .card:hover {
+    transform: scale(1.05);
+  }
