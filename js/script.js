@@ -8,3 +8,5 @@ VanillaTilt.init(document.querySelectorAll('[data-tilt]'), {
     'max-glare': 0.3,  // Set maximum glare intensity
     scale: 1.1         // Slight image scale on hover for added smoothness
   });
+
+ 
