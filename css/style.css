@@ -4,13 +4,32 @@ body {
     scroll-behavior: smooth;
   }
   
+
   .hero {
+    background: linear-gradient(to bottom, #001f4d, #87CEEB); /* Deep blue to light blue */
+    color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5rem 0;
   }
+
+  .hero h1, .hero p {
+    color: transparent; /* Make the text fill transparent */
+    -webkit-text-stroke: 1px black; /* Create a black outline */
+    text-stroke: 1px black; /* Ensure compatibility */
+    position: relative;
+    animation: glimmer 5s infinite;
+  }
+  /* .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
   
   #work .card {
     transition: transform 0.3s ease;
@@ -24,3 +43,14 @@ body {
     scroll-margin-top: 80px;
   }
 
+  @keyframes glimmer {
+    0% {
+      text-shadow: 0 0 4px rgb(17, 0, 255), 0 0 8px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      text-shadow: 0 0 10px rgba(0, 235, 252, 0.53), 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+      text-shadow: 0 0 4px rgb(17, 0, 255), 0 0 8px rgba(0, 0, 0, 0.2);
+    }
+  }
