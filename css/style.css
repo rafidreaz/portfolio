@@ -45,12 +45,12 @@ body {
 
   @keyframes glimmer {
     0% {
-      text-shadow: 0 0 4px rgb(17, 0, 255), 0 0 8px rgba(0, 0, 0, 0.2);
+      text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 8px rgba(0, 0, 0, 0.2);
     }
     50% {
-      text-shadow: 0 0 10px rgba(0, 235, 252, 0.53), 0 0 20px rgba(0, 0, 0, 0.5);
+      text-shadow: 0 0 10px rgba(204, 226, 3, 0.63), 0 0 20px rgba(0, 0, 0, 0.5);
     }
     100% {
-      text-shadow: 0 0 4px rgb(17, 0, 255), 0 0 8px rgba(0, 0, 0, 0.2);
+      text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 8px rgba(0, 0, 0, 0.2);
     }
   }
