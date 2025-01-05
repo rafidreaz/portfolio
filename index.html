@@ -32,14 +32,15 @@
   <!-- Hero Section -->
   <header class="hero bg-primary text-white text-center py-5">
     <div class="container">
-      <img data-aos="fade-down" 
-     data-aos-easing="linear" 
-     data-aos-duration="1500" 
-     src="img/profilepic.jpeg" 
-     alt="Profile Picture" 
-     class="rounded-circle mb-3" 
-     style="width: 150px;" 
-     data-tilt>
+      <div class="profile-container">
+        <img id="profile-pic" src="img/profilepic.jpeg" alt="Profile Picture" class="rounded-circle mb-3" style="width: 150px;">
+        <div id="social-links" class="hidden">
+          <a href="https://twitter.com/" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://linkedin.com/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      
       <h1 data-aos="fade-up">Hello, I'm Md. Rafid Reaz</h1>
       <p data-aos="fade-up" data-aos-delay="200">A Frontend Developer in making</p>
     </div>
