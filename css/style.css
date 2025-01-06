@@ -48,7 +48,7 @@ body {
       text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 8px rgba(0, 0, 0, 0.2);
     }
     50% {
-      text-shadow: 0 0 10px rgba(204, 226, 3, 0.63), 0 0 20px rgba(0, 0, 0, 0.5);
+      text-shadow: 0 0 10px hsla(0, 70.60%, 48.00%, 0.92), 0 0 20px rgba(0, 0, 0, 0.5);
     }
     100% {
       text-shadow: 0 0 4px rgb(0, 0, 0), 0 0 8px rgba(0, 0, 0, 0.2);
